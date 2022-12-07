@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <test name="courses begging">
+        <parameter name="Url" value="www.google.com" />
+        <classes>
+            <class name="TestNG.Day6"/>
+        </classes>
+    </test> <!-- Test -->
+
+
+    <test name="courses ending">
+        <parameter name="Url" value="www.Amazon.com" />
+        <classes>
+            <class name="TestNG.Day5"/>
+        </classes>
+    </test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
